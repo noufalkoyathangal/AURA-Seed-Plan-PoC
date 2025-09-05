@@ -231,13 +231,6 @@ Sample `Deployment` manifest is included for scaling with 3 replicas and health 
 * **Epic 4:** Scale & ERP/BI integrations
 
 ---
-
-## 🎯 Interview Q\&A
-
-Sample technical and business questions are included (covering data consistency, caching, ML drift handling, explainability, ROI measurement, adoption strategy).
-
----
-
 ## 🔧 Troubleshooting
 
 * **Docker port in use →** kill process or use a different port
