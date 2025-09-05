@@ -1,0 +1,6 @@
+sku_id,category,cost,category_score
+SKU1,tops,12.0,0.92
+SKU2,denim,24.0,0.88
+SKU3,shoes,38.0,0.81
+SKU4,outer,45.0,0.78
+SKU5,basics,8.0,0.75

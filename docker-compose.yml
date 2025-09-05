@@ -1,0 +1,17 @@
+version: "3.9"
+services:
+  api:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: aura-seed-poc:dev
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./data:/app/data:ro
+      - ./out:/app/out
+    environment:
+      # add env if needed later (e.g., model keys), not required for this PoC
+      - PYTHONUNBUFFERED=1
+    command: >
+      uvicorn app.main:app --host 0.0.0.0 --port 8000
