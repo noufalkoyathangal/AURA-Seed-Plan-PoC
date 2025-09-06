@@ -4,7 +4,7 @@
 
 ---
 
-## 📋 Table of Contents
+## Table of Contents
 
 * [Executive Summary](#executive-summary)
 * [Technology Stack](#technology-stack)
@@ -29,7 +29,7 @@ This PoC showcases the **Seed Plan Agent** from Intelo’s AURA suite. It focuse
 
 ---
 
-## 🛠 Technology Stack
+## Technology Stack
 
 | Component        | Technology             | Purpose                           |
 | ---------------- | ---------------------- | --------------------------------- |
@@ -72,7 +72,7 @@ aura-seed-plan-poc/
 
 ---
 
-## 🚀 Quick Start Guide
+## Quick Start Guide
 
 ### Prerequisites
 
@@ -121,7 +121,7 @@ Main issues include:
 
 ---
 
-## 🏗 Technical Architecture
+## Technical Architecture
 
 ```
 Users (Swagger UI, curl, API clients)
@@ -144,7 +144,7 @@ Users (Swagger UI, curl, API clients)
 
 ---
 
-## 📚 API Documentation
+## API Documentation
 
 ### Health Check
 
@@ -189,7 +189,7 @@ Request:
 
 ---
 
-## 🧪 Testing & Examples
+## Testing & Examples
 
 CLI examples with `curl` are provided in the repo.
 For Python testing:
@@ -205,7 +205,7 @@ print(resp.json())
 
 ---
 
-## 🚀 Deployment
+## Deployment
 
 ### Docker
 
@@ -231,7 +231,7 @@ Sample `Deployment` manifest is included for scaling with 3 replicas and health 
 * **Epic 4:** Scale & ERP/BI integrations
 
 ---
-## 🔧 Troubleshooting
+## Troubleshooting
 
 * **Docker port in use →** kill process or use a different port
 * **Memory errors →** increase Docker memory or sample datasets
@@ -239,7 +239,7 @@ Sample `Deployment` manifest is included for scaling with 3 replicas and health 
 
 ---
 
-## 🤝 Contributing
+## Contributing
 
 1. Install dev dependencies
 2. Run pre-commit hooks
@@ -248,7 +248,7 @@ Sample `Deployment` manifest is included for scaling with 3 replicas and health 
 
 ---
 
-## 🏆 Key Achievements
+## Key Achievements
 
 * Production-ready PoC with FastAPI + Docker
 * ML-driven clustering and seed generation
